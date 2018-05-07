@@ -4,9 +4,13 @@ public class dummyClass
 	public void thisIsANewMethod()
 	{
 		System.out.println("newMethod");
+
 		testMethod();
 		testMethod(50);
-		
+
+		System.out.println("bugfix completed");
+
+		System.out.println("bugfix2 completed");
 	}
 
 	void testMethod()
