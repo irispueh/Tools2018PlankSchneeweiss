@@ -5,6 +5,8 @@ public class dummyClass
 	{
 		System.out.println("newMethod");
 		testMethod();
+		testMethod(50);
+		
 	}
 
 	void testMethod()
@@ -15,4 +17,14 @@ public class dummyClass
 		
 		System.out.println("Value: " + val);
 	}
+	
+	void testMethod(int counter)
+	{
+		int val = 0;
+		for(int i = 0; i < counter; i++)
+			val += 3;
+		
+		System.out.println("Value: " + val);
+	}
+
 }
