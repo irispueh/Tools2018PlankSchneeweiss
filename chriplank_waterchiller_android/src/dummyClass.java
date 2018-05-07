@@ -3,7 +3,8 @@ public class dummyClass
 {
 	public void thisIsANewMethod()
 	{
-		System.out.println("newMethod");
+		System.out.println("newMethod")
+		System.out.println("bugfix completed");
 	}
 
 	void testMethod()
